@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+        *{
+            margin: 0px;
+        }
+.parent{
+    display: flex;
+    height: 100vh;
+    width: 100 vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#div1{
+    background-color: darkgreen;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-grow: 1;
+}
+
+#div2{
+    background-color: darkorange;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-grow: 1;
+}
+
+    </style>
 </head>
 <body>
-    <div></div>
+    <div class = "parent">
+    <div id ="div1"></div>
+    <div id = "div2"></div>
+
+
+    </div>
+    
 </body>
 </html>
